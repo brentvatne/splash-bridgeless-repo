@@ -1,6 +1,31 @@
 {
   "expo": {
     "name": "splashy",
-    "slug": "splashy"
+    "slug": "splashy",
+    "icon": "https://github.com/expo/expo/blob/master/templates/expo-template-blank/assets/icon.png?raw=true",
+    "splash": {
+      "image": "https://github.com/expo/expo/blob/master/templates/expo-template-blank/assets/splash.png?raw=true",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.brents.splashy"
+    },
+    "android": {
+      "package": "com.brents.splashy"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "newArchEnabled": true
+          },
+          "android": {
+            "newArchEnabled": true
+          }
+        }
+      ]
+    ]
   }
 }
